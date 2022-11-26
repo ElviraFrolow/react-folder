@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: green;
+}
+
+h2 {
+  text-align: center;
+  padding: 3rem 0rem 0rem;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+}
+
+h3 {
+  color: white;
+  font-size: 6rem;
+}
+
+header > p {
+  text-align: center;
+  margin: 2rem 10rem;
+}
+
+article {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 3rem;
+}
+
+article div {
+  margin-bottom: 3rem;
+  border-right: 1px solid white;
+  padding-right: 5.5rem;
+}
